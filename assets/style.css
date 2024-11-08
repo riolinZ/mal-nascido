@@ -39,6 +39,14 @@ body{
     
 }
 
+.cartao__conteudo__pergunta {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.cartão__conteudo__resposta {
+    color: var(--card-back-color);
+}
 
 footer{
     background-color: rgb(208, 250, 250);
@@ -54,3 +62,4 @@ footer p{
     font-size: 0.5rem;
     margin-top: 0.6rem;
 }
+
