@@ -1,3 +1,10 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;;
+    --card-back-color: #00f48f;
+}
+
+
 
 body{
     background: url(img/decantalara\ tchunai\,\ arabassu\ barassu\ barachai.avif);
@@ -10,7 +17,7 @@ body{
 
 .cartão{
     margin: 1rem 1rem;
-    background-color: rgb(0, 158, 119);
+    background: var(--card-front-color);
     height: 10rem;
     flex-grow: 1;
     flex-basis: calc(33%-6rem);
@@ -18,12 +25,12 @@ body{
 
 .cartão__conteudo{
     text-align: center;
-    background-color: aquamarine;
     height: 100%;
 }
 
 .cartão__conteudo h3{
-    background-color: aliceblue;
+    color: var(--text-color);
+    border: 5px solid var(--text-color);
     text-align: left;
     padding: 0,5rem;
     position: absolute;
